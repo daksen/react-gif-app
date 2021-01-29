@@ -4,6 +4,6 @@ import './css/index.css';
 import GifExpertApp from './components/GifExpertApp';
 
 ReactDOM.render( 
-    <GifExpertApp />, 
+    <GifExpertApp defaultCategories={ ["Star Wars"] } />, 
     document.getElementById('root')
 );
